@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --corbg: #F5EBDC;
+    --corbgfooterhamb: #FED8B5;
+    --corfhamb: #D42401;
+    --corfchamb: #502314;
+    --corfcred: #FE9738;
+    --fontcard: "Inter", serif;
+}
+
+.bg {
+    background-color: var(--corbg);
+}
+
+header div.colnomes {
+    min-width: 270px;
+    max-width: 150px;
+}
+
+header div.colimg {
+    max-width: 150px;
+}
+
+header > p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 606px;
+    text-align: center;
+    margin: 60px auto 20px auto;
+}
+
+header > p > strong {
+    color: var(--corfhamb);
+}
+
+header strong.stitulo {
+    font-family: "Inter";
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--corfhamb);
+}
+
+header p.ptitulo {
+    padding-top: 25px;
+    margin-bottom: 0px;
+}
+
+header p.subtitulo {
+    padding-left: 75px;
+}
+
+header p.subtitulo {
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--corfchamb);
+}
+
+header div.containerheader{
+    margin-top: 80px;
+}
+
+header img {
+    margin-top: 15px;
+    margin-left: 50px;
+    width: 87px;
+    height: 87px;
+}
+
+main img {
+    margin: auto;
+    max-width: 78%;
+}
+
+img.hbigdev {
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+img.devchicken {
+    margin-bottom: 20px;
+}
+
+p.card-text {
+    margin: 0px;
+}
+
+
+div.tamCard {
+    width: 300px;
+    height: 296px;
+    border: none;
+    box-shadow: 0px 0px 3px #00000040; 
+}
+
+main div.row {
+    margin: 18px 0px auto 12px;
+    padding: 0px;
+}
+
+main div.col {
+    padding: 0px;
+}
+
+p.tipohamb {
+    font-family: var(--fontcard);
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--corfhamb);
+}
+
+p.diffhamb {
+    font-family: var(--fontcard);
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--corfchamb);
+}
+
+span.moeda {
+    color: #502314;
+    margin-right: 4px;
+}
+
+p.valorhamb {
+    margin-top: 2.5px;
+}
+
+p.valorhamb > span {
+    font-family: var(--fontcard);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+p.valorhamb {
+    font-family: var(--fontcard);
+    font-size: 39px;
+    font-weight: 800;
+    color: #D42401;
+}
+
+div.footercard {
+    background-color: var(--corbgfooterhamb);
+    width: 300px;
+    height: 92px;
+    margin-left: -29px;
+}
+
+div.tamCard > div.card {
+    background-color: var(--corbgfooterhamb);
+    width: 300px;
+    height: 92px;
+    margin-top: 26px;
+    margin-left: -12px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p.registro {
+
+    margin-top: 45px;
+    margin-bottom: 0px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer p.creditos {
+    color: var(--corfcred);
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+footer p.creditos > strong {
+    color: var(--corfhamb);
+}
+
+footer p.creditos > strong.dev {
+    color: var(--corfcred);
+}
+
+
+
